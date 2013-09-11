@@ -1,0 +1,6 @@
+#p_sending_log{
+    height: 15em;
+    overflow: auto;
+    margin: 1em 0;
+    border: solid 1px lightblue;
+}

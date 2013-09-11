@@ -1,0 +1,36 @@
+/* 
+    Document   : searcher
+    Created on : 09.09.2013, 14:52:00
+    Author     : Администратор
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#p_header_searcher{
+    white-space: nowrap;
+    position: fixed;
+    /*background-color: inherit;*/
+    right: 0px;
+    top: 0;
+    color:black;
+}
+
+#p_header_searcher_term{
+    width: 15em;
+    margin: 0 5px;
+    border-width: 0px;
+    padding: 0;
+}
+
+#p_header_searcher_index{
+    margin: 5px;
+    padding: 1px 3px;
+    /*background-color: white;*/
+}
+#p_header_searcher_index.no_result{
+    background-color: red;
+}
+
+.ui-autocomplete a{
+    color: black;
+}

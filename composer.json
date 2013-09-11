@@ -1,0 +1,25 @@
+{
+    "name": "alexey_baranov/phone-number",
+    "description": "Phone number framework",
+    "authors": [
+        {
+            "name": "Alexey Baranov",
+            "email": "alexey_baranov@inbox.ru"
+        }
+    ],
+    "repositories": [
+        {
+           "type": "vcs",
+           "url": "file://C:/xampp53/htdocs/page/"
+        }
+    ],    
+    "require": {
+        "apache/log4php" : "2.*",
+        "PHPUnit/PHPUnit" : "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PhoneNumber": "lib/"
+        }
+    }
+}

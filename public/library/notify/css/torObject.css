@@ -1,0 +1,15 @@
+/* 
+    Document   : torObject
+    Created on : 09.09.2013, 15:06:16
+    Author     : Администратор
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+
+.selected{
+    background-image:url("pic/selected.png") !important;
+    background-repeat: repeat;
+}

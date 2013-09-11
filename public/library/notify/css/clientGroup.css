@@ -1,0 +1,29 @@
+/* 
+    Document   : clientGroup
+    Created on : 09.09.2013, 14:54:42
+    Author     : Администратор
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.clientGroup{
+    margin: 1em 0;
+}
+
+.clientGroup_title{
+    font-size: 1.63em;
+    padding: 0.1em 0.5em;
+    background-color: #4bb1cf;
+    color: white;
+    cursor: pointer;
+}
+
+.clientGroup_title:hover{
+    background-image:url("pic/hover.png");
+    background-repeat: repeat;
+}
+
+.clientGroup input.select{
+    font-size: 2em;
+}

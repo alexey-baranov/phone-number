@@ -1,0 +1,17 @@
+/* 
+    Document   : table.content
+    Created on : 09.09.2013, 15:02:58
+    Author     : Администратор
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table.content{
+    border-collapse:collapse;
+    margin: 1em 0;
+    padding-left: 3em;
+}
+
+table.content td{
+    padding: 0.1em 0.5em;
+}

@@ -7,15 +7,11 @@
             "email": "alexey_baranov@inbox.ru"
         }
     ],
-    "repositories": [
-        {
-           "type": "vcs",
-           "url": "file://C:/xampp53/htdocs/page/"
-        }
-    ],    
     "require": {
-        "apache/log4php" : "2.*",
-        "PHPUnit/PHPUnit" : "*"
+        "apache/log4php" : "2.3.*"
+    },
+    "require-dev": {
+        "PHPUnit/PHPUnit" : "4.0.*"
     },
     "autoload": {
         "psr-0": {
